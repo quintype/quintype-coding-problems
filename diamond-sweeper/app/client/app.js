@@ -1,3 +1,3 @@
-global.startApp = function() {
-  console.log("Amazing");
+global.startApp = function(container) {
+  console.log("Here is the container:", container);
 }
