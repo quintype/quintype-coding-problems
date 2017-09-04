@@ -28,7 +28,11 @@ To start the Application:
 * Install the dependencies (via `yarn install` or `npm install`)
 * Compile Assets: `npm run compile`
 * Start the webserver: `npm start`
-* Visit `http://localhost:3000` to see the changes
+* Visit `http://localhost:3000` to see the application
+
+If you have done the above steps correctly, you should see the below
+
+![Screenshot](./screenshot.jpg)
 
 If you make a change, run the last two steps above to see it reflected.
 
