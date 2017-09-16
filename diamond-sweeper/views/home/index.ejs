@@ -3,97 +3,37 @@
     <title>Quintype App</title>
     <link rel="stylesheet" href="/assets/style.css" type="text/css"/>
     <script type="text/javascript" src="/assets/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
   </head>
-  <body>
-    <div id="container">
-      <div>
-        <div class="messages"></div>
-        <table class="diamondsweeper-board">
-          <tbody>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell diamond"></div></td>
-              <td><div class="cell unknown"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell diamond"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell diamond"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell arrow"></div></td>
-              <td><div class="cell unknown"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell diamond"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-            </tr>
-            <tr>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell unknown"></div></td>
-              <td><div class="cell"></div></td>
-              <td><div class="cell"></div></td>
-            </tr>
-          </tbody>
-        </table>
+  <body ng-app="myApp">
+    <div id="container" ng-controller="homeCtrl">
+      
+      <h3>{{score}}</h3>
+      <div class="grid">
+          <!--container starts-->
+      <div class="container" ng-init="getData()">       
+            <div ng-repeat="data in gridData track by $index">
+              <div ng-class="{'row':($index+1)%8==0}">
+                <div id="{{$index}}" ng-click="clickCounter(data)" name="{{data.value}}" class="pointer col-xs-1 cell unknown" grid-check selection="data"  diamondlist="diamondarrayList" >
+            
+                </div>  
+                <div ng-if="$index%8==0" class="col-xs-offset-4" >        
+                </div>
+              </div>
+            </div>
+       
+    </div> 
+    <!--container end-->
       </div>
     </div>
-    <script type="text/javascript">startApp(document.getElementById("container"));</script>
+
   </body>
+ <script type="text/javascript">startApp(document.getElementById("container"));</script>
+ <!--requied library refrences starts-->
+ <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="/js/homeController.js"></script>
+    <!--required library refrences ends-->
 </html>

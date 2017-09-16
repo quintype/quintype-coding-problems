@@ -12,13 +12,31 @@ table.diamondsweeper-board {
 
   &.diamond {
     background-image: url(diamond.png);
+    background-repeat: no-repeat;
   }
 
   &.arrow {
     background-image: url(arrow.png);
+    background-repeat: no-repeat;
   }
 
   &.unknown {
     background-image: url(question.png);
+    background-repeat: no-repeat;
   }
 }
+h3{
+    color: green;
+  }
+  .grid{
+    margin: 70px;  
+  }
+
+.pointer{
+    cursor: pointer;
+    border: 1px solid black;
+    &:hover{
+       background-color: gray;
+    }
+
+  }

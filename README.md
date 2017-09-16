@@ -1,8 +1,9 @@
-# Quintype Coding Problem
+# Quintype-Coding-Problem
 
-This is a collection of coding problem templates for Quintype.
+In this application User can play a simple game diamond sweeper, user has to find out the (8 for this version) no of diamond as much as less attempt on clicking . 
 
-To get a tarball suitable to send to candidates, run the following command:
-```bash
-$ make <app>.zip
+
+In this project i have used angularJs framwork for performing UI operation and bootstrap for making it responsive design.
+
+
 ```
