@@ -20,9 +20,9 @@ When a card is opened, the program must state which statement to Announce. The i
 ### Sample Input and Output
 
 | Input        | Output           | Comment  |
-| ------------- |---------------| -----:|
-| Apple <br> Apple <br> Banana | Apple <br> Banana <br> Mango | Truth <br> Can't announce Apple <br> Can't announce Apple or Banana |
-| Apple <br> Garbage Can <br> Banana <br> Apple  | Apple <br> Garbage Can <br> Banana <br> Mango | Truth <br> Truth <br> Truth <br> Can't say Banana or Apple (taboo) |
+| ------------- |---------------| -----|
+| Apple <br> Apple <br> Banana | Apple <br> Banana <br> Mango | Truth <br> Can't say Apple <br> Can't say Apple or Banana |
+| Apple <br> Garbage Can <br> Banana <br> Apple  | Apple <br> Garbage Can <br> Banana <br> Mango | Truth <br> Truth (Apple is now taboo) <br> Truth <br> Can't say Banana or Apple |
 
 ## Credits
 
