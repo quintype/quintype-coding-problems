@@ -15,7 +15,7 @@ After picking each card, the player must announce what picture is on the card, s
 
 ### Objective of the program
 
-When a card is opened, the program must state which statement to Announce. The input will be provided via a file, one card per line.
+When a card is opened, the program must state which statement to Announce. The input will be provided via standard input, one card per line. The announcements must be made on standard output, one announcement per line.
 
 ### Sample Input and Output
 
