@@ -26,4 +26,4 @@ When a card is opened, the program must state which statement to Announce. The i
 
 ## Credits
 
-This programming question is based on the excellent game (Cockroach Salad)[https://www.amazon.com/Schmidt-SCH87148-Cockroach-Salad-Card/dp/B00LNFP9G6]. It's an amazingly fun game, so do pick up a copy.
+This programming question is based on the excellent game [Cockroach Salad](https://www.amazon.com/Schmidt-SCH87148-Cockroach-Salad-Card/dp/B00LNFP9G6). It's an amazingly fun game, so do pick up a copy.
