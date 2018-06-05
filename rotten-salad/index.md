@@ -11,7 +11,7 @@ After picking each card, the player must announce what picture is on the card, s
 1) By default, the player must announce the picture on the card. For example, if the card has an apple, the player must say "Apple".
 2) If the previous card had the same picture, then the player must announce any other fruit. For example, if the previous card was an apple, and the current card is also an apple, the player may say "Banana".
 3) If the player had announced the same fruit for the previous card, then the player must announce any other fruit for this card. For example, if the previous card was an apple (and banana was announced), and the current card is a banana, then the player may announce "Mango".
-4) If the picture on the card is a garbage can, then the player must announce "Garbage Can". However, the card that came before the garbage can becomes taboo. No player may announce the taboo card. The effects of this is negated once another garbage can card is picked, causing another fruit to become taboo.
+4) If the picture on the card is a garbage can, then the player must announce "Garbage Can". However, the card that came before the garbage can becomes taboo. The player may not announce the taboo card. The effects of this is negated once another garbage can card is picked, causing another fruit to become taboo.
 
 ### Objective of the program
 
