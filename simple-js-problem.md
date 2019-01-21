@@ -16,13 +16,13 @@ fib(6) // 8
 Write a function which will return the next fibonacci number each time it's called.
 
 ```javascript
-const fibGenerator = fib();
-fib() // 1
-fib() // 1
-fib() // 2
-fib() // 3
-fib() // 5
-fib() // 8
+const run = fib();
+run() // 1
+run() // 1
+run() // 2
+run() // 3
+run() // 5
+run() // 8
 ```
 
 ## Get the current domain
