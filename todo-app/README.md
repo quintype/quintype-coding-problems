@@ -14,6 +14,10 @@ Points will be awarded for the following:
 
 Mockups can be found in the [./mockups](mockups) folder
 
+## Downloading the starter project
+
+The starter project can be downloaded from [here](https://drive.google.com/uc?id=1At2nUvNm4Ss_xvHn5H-h8qpVVF32AgWG&export=download)
+
 ## Starting the Server
 
 ### Prerequisities
