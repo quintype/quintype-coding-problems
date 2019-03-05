@@ -17,6 +17,14 @@ class App extends Component {
             <li>Add the ability to add a new item</li>
           </ul>
         </section>
+        <section className="App-TodoList">
+          <h2>Done:</h2>
+          <ul>
+            <li>Get the Code</li>
+            <li>Install Dependencies</li>
+            <li>Start the Server</li>
+          </ul>
+        </section>
       </div>
     );
   }
