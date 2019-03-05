@@ -10,7 +10,7 @@ Points will be awarded for the following:
 
 ## Mockups
 
-Mockups can be found in the (./mockups)[mockups] folder
+Mockups can be found in the [./mockups](mockups) folder
 
 ## Starting the Server
 
