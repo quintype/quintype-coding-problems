@@ -6,7 +6,9 @@ Points will be awarded for the following:
 
 * Nice, simple UI that shows cards on the desktop, and a list on mobile
 * Semantic HTML
-* Interactivity with React.js - Add the ability to add a new item, and to mark an item as finished
+* Interactivity with React
+  - Add the ability to add a new item,
+  - Ability to mark an item as finished
 
 ## Mockups
 
