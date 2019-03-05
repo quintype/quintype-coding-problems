@@ -14,7 +14,11 @@ Mockups can be found in the [./mockups](mockups) folder
 
 ## Starting the Server
 
-In the project directory, you can run:
+### Prerequisities
+
+Please ensure that node 10.x or later is installed. For instructions on installing node, please see https://nodejs.org/en/download/
+
+In the project directory, please run:
 
 ### `npm install`
 
